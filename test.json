@@ -1,0 +1,13 @@
+{
+    "conv_id": "1232",
+    "tenant_id": "xyz",
+    "dialouge": "#Person1#: I'm afraid it's bad news for you. You haven't got the position.\n#Person2#: Oh, no! I can't have failed. Are you sure?\n#Person1#: I'm afraid so. I'm terribly sorry.\n#Person2#: It sucks. But Arden told me he's satisfied with my qualifications and experience.\n#Person1#: He's the only one of the several to decide this.\n#Person2#: How am I going to face the fellows in our office? They thought I would be promoted. They must be waiting for my good news.\n#Person1#: I don't think the thing can be that serious. You should face the result. Besides, I don't think the position is the best for you.\n#Person2#: But I lost the chance.\n#Person1#: Keep working hard, and then you will get another chance of promotion someday.",
+    "source" : "Ucapture",
+    "confidence" : 81,
+    "metadata": {
+        "agent_id":1112,
+        "centre_id":112,
+        "customer_id":221,
+        "channel": 23
+    }  
+}

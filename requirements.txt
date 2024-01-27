@@ -1,0 +1,13 @@
+flask
+pandas==2.0.3
+peft==0.7.1
+tokenizers==0.15.0
+torch==2.1.2
+torchdata==0.5.1
+torchvision==0.16.2
+tqdm==4.66.1
+tqdm-multiprocess==0.0.11
+traitlets==5.14.0
+transformers==4.36.2
+triton==2.1.0
+trl @ git+https://github.com/lvwerra/trl.git@25fa1bd8803c9998d95a3c38b2bb27a85235ce7b

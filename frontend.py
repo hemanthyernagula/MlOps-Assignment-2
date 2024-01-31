@@ -1,5 +1,5 @@
 import gradio as gr
-
+from loguru import logger
 import requests
 
 def get_predictions(file_path):
@@ -11,7 +11,7 @@ def get_predictions(file_path):
     ('file',('test.json',open(file_path,'rb'),'application/json'))
     ]
     headers = {}
-
+    logger.info(f"hitting model api")
     response = requests.request("POST", url, headers=headers, data=payload, files=files)
 
     return response.text

@@ -6,7 +6,7 @@
 ## commands to run docker
     docker pull yernagulahemanth/summarize:v0.2
 
-    docker run -itd --name sum --network=host summarization:latest
+    docker run -itd --name sum --network=host --gpus all summarization:latest
 
 ## curl request
     curl --location 'localhost:8080/predict' --form 'file=@"/C:/Assignments/Uniphore/MlOps-Assignment-2/test.json"'
